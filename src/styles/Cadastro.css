@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Garante que a altura do corpo seja 100% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 6px 10px;
+}
